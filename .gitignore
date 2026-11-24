@@ -1,0 +1,5 @@
+.DS_Store
+__pycache__/
+*.pyc
+.claude/.review-deep/
+.claude/.cross-review/

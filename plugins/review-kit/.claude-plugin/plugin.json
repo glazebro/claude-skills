@@ -1,0 +1,15 @@
+{
+  "name": "review-kit",
+  "version": "1.0.0",
+  "description": "Risk-sized AI code review for any repo: triage the diff, run /simplify and /code-review --fix, escalate to a six-angle parallel deep review when warranted, and get a second opinion from a different model with cross-review.",
+  "author": {
+    "name": "Mike Glazebrook"
+  },
+  "repository": "https://github.com/glazebro/claude-skills",
+  "license": "MIT",
+  "keywords": ["code-review", "pre-push", "cross-review", "multi-model", "multi-agent"],
+  "skills": [
+    "./skills/branch-review",
+    "./skills/cross-review"
+  ]
+}

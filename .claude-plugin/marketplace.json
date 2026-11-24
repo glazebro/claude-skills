@@ -1,0 +1,14 @@
+{
+  "name": "claude-skills",
+  "description": "Claude Code skills and plugins for AI code review and agentic engineering workflows.",
+  "owner": {
+    "name": "Mike Glazebrook"
+  },
+  "plugins": [
+    {
+      "name": "review-kit",
+      "description": "Risk-sized AI code review before you push, plus a Claude + Copilot cross-review where two different models audit each other.",
+      "source": "./plugins/review-kit"
+    }
+  ]
+}
