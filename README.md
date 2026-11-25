@@ -28,6 +28,7 @@ Install with `/plugin marketplace add glazebro/claude-skills`, then `/plugin ins
 | `ticket-to-pr`       | Take one ticket from intake to a push-ready branch: read it, judge whether it is groomed, grill scope, plan, build test-first, prove, choose the review depth, and hand back a drafted PR. Three human gates. Works with any tracker. |
 | `review-pr-comments` | Fetch unresolved PR review threads, judge which are valid, fix the valid ones test-first one commit at a time (proving each regression test fails without the fix), and resolve the threads. |
 | `critic-loop`        | A strong-model critic scores the real thing against the best in its class; cheaper builders fix it in non-overlapping packages; the critic re-scores until everything reaches the target. Works on apps, features, documents and profiles. |
+| `ai-bridge`          | Claude and OpenAI Codex analyze a question blind, critique and rebut each other, and the report keeps any disagreement visible instead of averaging it away. Resumable task folders, and consequential actions wait in an approvals ledger for your own yes. |
 | `visual-review`      | Drive a real, visible browser through the screens a branch changed, with captions, before-and-after screenshots and a UX findings pass. |
 | `cloud-handoff`      | Push work in progress and brief a cloud Claude Code session to finish it, then pull it back with `/teleport`. |
 
